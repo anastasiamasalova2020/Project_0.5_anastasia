@@ -5,6 +5,7 @@ public class Library {
         double result=initial_price * coefficient;
         System.out.println("Your final price is "+result);
     }
+}
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the initial price of entrance fee to library: ");
