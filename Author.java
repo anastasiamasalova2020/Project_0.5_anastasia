@@ -11,12 +11,4 @@ public class Author {
             System.out.println("We caught a mistake) change the spelling !");
         }
     }
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the name of an author:Alexandre Dumas or Jules Gabriel Verne : ");
-        String name=sc.nextLine();
-        sc.close();
-        author(name);
-
-    }
 }
