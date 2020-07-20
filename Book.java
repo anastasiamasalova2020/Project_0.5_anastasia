@@ -9,12 +9,4 @@ public class Book {
         if(K>60){K=60;}
         return K;
     }
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the number of books that you want to buy: ");
-        int number=sc.nextInt();
-        sc.close();
-        System.out.println("Your discount will be "+sale(number)+"%");
-    }
-
 }
