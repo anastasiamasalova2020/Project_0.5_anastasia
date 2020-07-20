@@ -13,11 +13,4 @@ public class Ganre {
         else{System.out.println("Visit this page: https://www.theguardian.com/books/2017/dec/31/the-100-best-nonfiction-books-of-all-time-the-full-list - to find a new book of non-fiction to read.");}
 
     }
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter your favourite ganre: Fantasy, Poetry, Drama, or Non-fiction : ");
-        String name=sc.nextLine();
-        sc.close();
-        link(name);
-    }
 }
