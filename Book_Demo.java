@@ -11,7 +11,6 @@ public class Book_Demo {
         this.genre = genre;
     }
 
-    @Override
     public String toString() {
         return "\nThe book \"" + title + "\" {" + getAuthor().toStringAuthor() +
                 ", genre of the book - " + getGenre() +
