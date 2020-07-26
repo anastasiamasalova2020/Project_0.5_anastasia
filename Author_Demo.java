@@ -1,15 +1,15 @@
 package by.literature.masalova;
 
-public class Author_Demo implements Author_ {
-    private String Surname;
-    private String Nationality;
-    private Genre_Demo MainGenre;
+public class Author_Demo {
+    private String surname;
+    private String nationality;
+    private Genre_Demo mainGenre;
 
 
     public Author_Demo(String surname, String nationality, Genre_Demo mainGenre){
-        this.Surname=surname;
-        this.Nationality=nationality;
-        this.MainGenre=mainGenre;
+        this.surname=surname;
+        this.nationality=nationality;
+        this.mainGenre=mainGenre;
     }
     
     public String toStringAuthor() {
@@ -20,27 +20,27 @@ public class Author_Demo implements Author_ {
     }
 
     public String getNationality() {
-        return Nationality;
+        return nationality;
     }
 
     public void setNationality(String nationality) {
-        Nationality = nationality;
+        this.nationality = nationality;
     }
 
 
     public Genre_Demo getMainGenre() {
-        return MainGenre;
+        return mainGenre;
     }
 
     public void setMainGenre(Genre_Demo mainGenre) {
-        MainGenre = mainGenre;
+        this.ainGenre = mainGenre;
     }
 
     public String getSurname() {
-        return Surname;
+        return surname;
     }
 
     public void setSurname(String surname) {
-        Surname = surname;
+        this.surname = surname;
     }
 }
